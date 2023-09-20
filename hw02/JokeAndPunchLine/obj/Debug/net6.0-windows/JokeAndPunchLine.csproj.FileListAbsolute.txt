@@ -1,0 +1,16 @@
+D:\School\CS392\Code\hw02\JokeAndPunchLine\bin\Debug\net6.0-windows\JokeAndPunchLine.exe
+D:\School\CS392\Code\hw02\JokeAndPunchLine\bin\Debug\net6.0-windows\JokeAndPunchLine.deps.json
+D:\School\CS392\Code\hw02\JokeAndPunchLine\bin\Debug\net6.0-windows\JokeAndPunchLine.runtimeconfig.json
+D:\School\CS392\Code\hw02\JokeAndPunchLine\bin\Debug\net6.0-windows\JokeAndPunchLine.dll
+D:\School\CS392\Code\hw02\JokeAndPunchLine\bin\Debug\net6.0-windows\JokeAndPunchLine.pdb
+D:\School\CS392\Code\hw02\JokeAndPunchLine\obj\Debug\net6.0-windows\JokeAndPunchLine.Form1.resources
+D:\School\CS392\Code\hw02\JokeAndPunchLine\obj\Debug\net6.0-windows\JokeAndPunchLine.csproj.GenerateResource.cache
+D:\School\CS392\Code\hw02\JokeAndPunchLine\obj\Debug\net6.0-windows\JokeAndPunchLine.GeneratedMSBuildEditorConfig.editorconfig
+D:\School\CS392\Code\hw02\JokeAndPunchLine\obj\Debug\net6.0-windows\JokeAndPunchLine.AssemblyInfoInputs.cache
+D:\School\CS392\Code\hw02\JokeAndPunchLine\obj\Debug\net6.0-windows\JokeAndPunchLine.AssemblyInfo.cs
+D:\School\CS392\Code\hw02\JokeAndPunchLine\obj\Debug\net6.0-windows\JokeAndPunchLine.csproj.CoreCompileInputs.cache
+D:\School\CS392\Code\hw02\JokeAndPunchLine\obj\Debug\net6.0-windows\JokeAndPunchLine.dll
+D:\School\CS392\Code\hw02\JokeAndPunchLine\obj\Debug\net6.0-windows\refint\JokeAndPunchLine.dll
+D:\School\CS392\Code\hw02\JokeAndPunchLine\obj\Debug\net6.0-windows\JokeAndPunchLine.pdb
+D:\School\CS392\Code\hw02\JokeAndPunchLine\obj\Debug\net6.0-windows\JokeAndPunchLine.genruntimeconfig.cache
+D:\School\CS392\Code\hw02\JokeAndPunchLine\obj\Debug\net6.0-windows\ref\JokeAndPunchLine.dll
