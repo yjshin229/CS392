@@ -1,0 +1,17 @@
+D:\School\CS392\Code\hw02\HeadsOrTails\bin\Debug\net6.0-windows\HeadsOrTails.exe
+D:\School\CS392\Code\hw02\HeadsOrTails\bin\Debug\net6.0-windows\HeadsOrTails.deps.json
+D:\School\CS392\Code\hw02\HeadsOrTails\bin\Debug\net6.0-windows\HeadsOrTails.runtimeconfig.json
+D:\School\CS392\Code\hw02\HeadsOrTails\bin\Debug\net6.0-windows\HeadsOrTails.dll
+D:\School\CS392\Code\hw02\HeadsOrTails\bin\Debug\net6.0-windows\HeadsOrTails.pdb
+D:\School\CS392\Code\hw02\HeadsOrTails\obj\Debug\net6.0-windows\HeadsOrTails.Form1.resources
+D:\School\CS392\Code\hw02\HeadsOrTails\obj\Debug\net6.0-windows\HeadsOrTails.Properties.Resources.resources
+D:\School\CS392\Code\hw02\HeadsOrTails\obj\Debug\net6.0-windows\HeadsOrTails.csproj.GenerateResource.cache
+D:\School\CS392\Code\hw02\HeadsOrTails\obj\Debug\net6.0-windows\HeadsOrTails.GeneratedMSBuildEditorConfig.editorconfig
+D:\School\CS392\Code\hw02\HeadsOrTails\obj\Debug\net6.0-windows\HeadsOrTails.AssemblyInfoInputs.cache
+D:\School\CS392\Code\hw02\HeadsOrTails\obj\Debug\net6.0-windows\HeadsOrTails.AssemblyInfo.cs
+D:\School\CS392\Code\hw02\HeadsOrTails\obj\Debug\net6.0-windows\HeadsOrTails.csproj.CoreCompileInputs.cache
+D:\School\CS392\Code\hw02\HeadsOrTails\obj\Debug\net6.0-windows\HeadsOrTails.dll
+D:\School\CS392\Code\hw02\HeadsOrTails\obj\Debug\net6.0-windows\refint\HeadsOrTails.dll
+D:\School\CS392\Code\hw02\HeadsOrTails\obj\Debug\net6.0-windows\HeadsOrTails.pdb
+D:\School\CS392\Code\hw02\HeadsOrTails\obj\Debug\net6.0-windows\HeadsOrTails.genruntimeconfig.cache
+D:\School\CS392\Code\hw02\HeadsOrTails\obj\Debug\net6.0-windows\ref\HeadsOrTails.dll
