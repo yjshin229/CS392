@@ -4,7 +4,7 @@
 1. Make a branch before you start working on your code. <br>
 ``` git checkout -b <new branch name> ```
    >branch names: <br>
-   > ex) feature: p.p calculator, fix: p.p 8.4
+   > ex) feature/pp-calculator, fix/pp-8.4
 2. After you are done with implementing each programming assignment, create a PR to ```dev```.
    > Don't forget to pull from ```dev``` and rebase before creating a PR!<br>
    1. Switch out to dev. ```git switch dev```
