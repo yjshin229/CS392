@@ -26,6 +26,9 @@
    > ⭐ So remember to pull before starting any work!! 
 
 ## Useful stuff
+⚠️ If there is an error doing ```pull``` try ```git config --global pull.rebase true```. <br>
+(I use rebase for default when pulling.)
+
 ⭐ we usually don't use past tense for git commit, branches, PR.
   
 |branch prefix| use|
