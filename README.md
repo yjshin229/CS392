@@ -6,7 +6,14 @@
    >branch names: <br>
    > ex) feature: p.p calculator, fix: p.p 8.4
 2. After you are done with implementing each programming assignment, create a PR to ```dev```.
-   > Don't forget to pull from dev before creating a PR!
+   > Don't forget to pull from ```dev``` and rebase before creating a PR!<br>
+   1. Switch out to dev. ```git switch dev```
+   2. Pull from dev. ```git pull```
+   3. Switch back to you current working branch. ```git switch <your branch name>```
+   4. Rebase dev to your branch. ```git rebase dev```
+
+   ⭐ you can see all the branches with ```git branch``` ⭐ <br><br>
+      
    > You might also have to fast-forward your current working branch to dev in order to prevent merge conflicts.
   
    > The PR title should be something similar to your branch name. Something that is easy to understand! <br>
