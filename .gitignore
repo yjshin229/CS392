@@ -56,6 +56,7 @@ ipch/
 *.sdf
 *.cachefile
 **/.vs/**/DesignTimeBuild/.dtbcache.v2
+**/.vs/**/DesignTimeBuild/.futdcache.v2
 
 # Visual Studio profiler
 *.psess
