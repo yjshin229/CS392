@@ -22,28 +22,19 @@ namespace SlotMachineSimulation7._10
         private int Check_Win(int[] arr)
         {
             int result = 0;
-            int current = 5;
-            foreach (int i in arr)
+            if (arr[0] == arr[1] && arr[0] == arr[2])
             {
-                if (i == 0)
-                {
-                    current = i;
-                    result++;
-                }
-                else
-                {
-                    if (current == i)
-                    {
-                        result++;
-                    }
-                    else
-                    {
-                        current = i;
-                        result = 1;
-                    }
-                }
+                result = 3;
+            }else if(arr[0] == arr[1] && arr[0] != arr[2] || arr[0] == arr[2] && arr[0] != arr[1] || arr[1] == arr[2] && arr[1] != arr[0])
+            {
+                result = 2;
+            }
+            else
+            {
+                result = 1;
             }
             return result;
+
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -71,18 +62,23 @@ namespace SlotMachineSimulation7._10
                     won_text.ForeColor = Color.Red;
                     break;
                 case 2:
-                    won_text.Text = (inserted*2).ToString("C", CultureInfo.CreateSpecificCulture("en-US"));
-                    won_text.ForeColor= Color.Yellow;
+                    won_text.Text = (inserted * 2).ToString("C", CultureInfo.CreateSpecificCulture("en-US"));
+                    won_text.ForeColor = Color.Gold;
                     break;
                 case 3:
                     won_text.Text = (inserted * 3).ToString("C", CultureInfo.CreateSpecificCulture("en-US"));
-                    won_text.ForeColor = Color.Yellow;
+                    won_text.ForeColor = Color.Gold;
                     break;
                 default:
                     break;
 
             }
 
-        }   
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
