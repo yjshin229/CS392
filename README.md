@@ -27,6 +27,7 @@
    
 4. We merge them to ```dev```.
    > When we are done reviewing and there are no conflicts we will merge to dev.
+   > MERGING SHOULD BE DONE BY THE PERSON WHO IMPLEMENTED THE CODE!
 
 5. After we are done with each week's assignment I will merge ```dev``` to ```main```.
    > ⭐ So remember to pull before starting any work!!
