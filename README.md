@@ -3,8 +3,7 @@
 ## Git Commit convention
 1. Make a branch before you start working on your code. <br>
 ``` git checkout -b <new branch name> ```
-   >branch names: <br>
-   > ex) feature/pp-calculator, fix/pp-8.4
+   > ex) ```feature/pp-calculator```, ```fix/pp-8.4```
 2. After you are done with implementing each programming assignment, create a PR to ```dev```.
    > Don't forget to pull from ```dev``` and rebase before creating a PR!<br>
    1. Switch out to dev. ```git switch dev```
@@ -17,7 +16,7 @@
    > You might also have to fast-forward your current working branch to dev in order to prevent merge conflicts.
   
    > The PR title should be something similar to your branch name. Something that is easy to understand! <br>
-  ```feature: implement calculator app 7.4```
+  ```feature/implement-calculator-app-7.4```
    
 3. Review the PR.
    > ```dev``` is a protected branch. We need your reviews and approval in order to merge.
