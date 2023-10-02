@@ -1,8 +1,8 @@
 namespace SecondGradeFlashCard
 {
-    public partial class addition : Form
+    public partial class Form1 : Form
     {
-        public addition()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -30,7 +30,7 @@ namespace SecondGradeFlashCard
                 ints[1] = random.Next(10);
                 while (ints[0] < ints[1])
                 {
-                    ints[1] = random.Next(10);   
+                    ints[1] = random.Next(10);
                 }
             }
 
@@ -116,7 +116,7 @@ namespace SecondGradeFlashCard
             Next_Button.Visible = false;
             Previous_Button.Visible = false;
             Answer_Textbox.Text = "";
-          
+
 
         }
 

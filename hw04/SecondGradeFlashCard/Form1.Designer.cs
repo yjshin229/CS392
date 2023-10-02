@@ -1,6 +1,6 @@
 ﻿namespace SecondGradeFlashCard
 {
-    partial class addition
+    partial class Form1
     {
         /// <summary>
         ///  Required designer variable.
@@ -214,7 +214,7 @@
             Previous_Button.Visible = false;
             Previous_Button.Click += Previous_Button_Click;
             // 
-            // addition
+            // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -236,8 +236,8 @@
             Controls.Add(label3);
             Controls.Add(First_Number);
             Controls.Add(Second_Number);
-            Name = "addition";
-            Text = "Form1";
+            Name = "Form1";
+            Text = "Second Grade Flash Card";
             ResumeLayout(false);
             PerformLayout();
         }
