@@ -30,7 +30,21 @@
    > When we are done reviewing and there are no conflicts we will merge to dev.
 
 5. After we are done with each week's assignment I will merge ```dev``` to ```main```.
-   > ⭐ So remember to pull before starting any work!! 
+   > ⭐ So remember to pull before starting any work!!
+   
+
+## Working on the same programming assignment
+
+#### (For programming assignments that are a bit bigger than the programming assignments that are in the textbook) <br>
+Since it is ideal to work on it together...
+1. Make a branch from ```dev```.
+   > The name of the branch could be something like ```feature/<name of the programming assignment>```. <br>
+   > ex) ```feature/calculator```.
+2. Then each of us can make another branch coming out from ```feature/<name of the programming assignment>``` instead of ```dev```.
+   > This branch name could be something like ```<your name>/<name of the programming assignment>```. <br>
+   > ex) ```youngjin/calculator```
+3. After you are done implementing your code we can make PR to ```feature/<name of the programming assignment>```.
+4. Then merge ```feature/<name of the programming assignment>``` back to ```dev```.
 
 ## Useful stuff
 ⚠️ If there is an error doing ```pull``` try ```git config --global pull.rebase true```. <br>
