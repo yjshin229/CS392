@@ -1,4 +1,4 @@
-namespace RockPaperScissors6._9
+namespace RockPaperScissors_6._9
 {
     internal static class Program
     {
