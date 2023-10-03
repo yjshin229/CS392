@@ -1,4 +1,4 @@
-namespace _6._4JoesAutomative
+namespace JoesAutomative_6._4
 {
     internal static class Program
     {

@@ -1,4 +1,8 @@
-namespace _6._4JoesAutomative
+using System;
+using System.Globalization;
+using System.Threading;
+
+namespace JoesAutomative_6._4
 {
     public partial class Form1 : Form
     {
@@ -58,27 +62,14 @@ namespace _6._4JoesAutomative
 
         private decimal PartsCharges()
         {
-            try
-            {
-                return decimal.Parse(tbParts.Text);
-            }
-            catch
-            {
-                return 0m;
-            }
+            return string.IsNullOrEmpty(tbParts.Text) ? 0m : decimal.Parse(tbParts.Text);
         }
 
         private decimal LaborCharges()
         {
-            try
-            {
-                return LABOR_COST * decimal.Parse(tbLabor.Text);
-            }
-            catch
-            {
-                return 0m;
-            }
+            return string.IsNullOrEmpty(tbLabor.Text) ? 0m : LABOR_COST * decimal.Parse(tbLabor.Text);
         }
+
 
         private decimal TaxCharges()
         {
@@ -97,13 +88,26 @@ namespace _6._4JoesAutomative
                    TransmissionFlushCharges() + InspectionCharges() + MufflerCharges() +
                    TireRotationCharges() + LaborCharges();
         }
+        private bool ValidateInput()
+        {
+            return (string.IsNullOrEmpty(tbParts.Text) || int.TryParse(tbParts.Text, out _)) &&
+                   (string.IsNullOrEmpty(tbLabor.Text) || int.TryParse(tbLabor.Text, out _));
+        }
+
 
         private void btnCalc_Click(object sender, EventArgs e)
         {
-            tbServSum.Text = ServiceCharges().ToString("c");
-            tbPartsSum.Text = PartsCharges().ToString("c");
-            tbTax.Text = TaxCharges().ToString("c");
-            tbTotal.Text = TotalCharges().ToString("c");
+            if (!ValidateInput())
+            {
+                MessageBox.Show("Please enter valid integer values.");
+                btnClear_Click(sender, e);
+                return;
+            }
+
+            tbServSum.Text = ServiceCharges().ToString("C2", CultureInfo.CreateSpecificCulture("en-US"));
+            tbPartsSum.Text = PartsCharges().ToString("C2", CultureInfo.CreateSpecificCulture("en-US"));
+            tbTax.Text = TaxCharges().ToString("C2", CultureInfo.CreateSpecificCulture("en-US"));
+            tbTotal.Text = TotalCharges().ToString("C2", CultureInfo.CreateSpecificCulture("en-US"));
         }
 
 
