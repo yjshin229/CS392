@@ -3,8 +3,7 @@
 ## Git Commit convention
 1. Make a branch before you start working on your code. <br>
 ``` git checkout -b <new branch name> ```
-   >branch names: <br>
-   > ex) feature: p.p calculator, fix: p.p 8.4
+   > ex) ```feature/pp-calculator```, ```fix/pp-8.4```
 2. After you are done with implementing each programming assignment, create a PR to ```dev```.
    > Don't forget to pull from ```dev``` and rebase before creating a PR!<br>
    1. Switch out to dev. ```git switch dev```
@@ -17,7 +16,7 @@
    > You might also have to fast-forward your current working branch to dev in order to prevent merge conflicts.
   
    > The PR title should be something similar to your branch name. Something that is easy to understand! <br>
-  ```feature: implement calculator app 7.4```
+  ```feature/implement-calculator-app-7.4```
    
 3. Review the PR.
    > ```dev``` is a protected branch. We need your reviews and approval in order to merge.
@@ -27,10 +26,35 @@
    ```git fetch --all``` will fetch all the remote branches.<br>
    
 4. We merge them to ```dev```.
-   > When we are done reviewing and there are no conflicts we will merge to dev.
+   > When we are done reviewing and there are no conflicts we will merge to dev. <br>
+   > ⚠️MERGING SHOULD BE DONE BY THE PERSON WHO IMPLEMENTED THE CODE!
 
 5. After we are done with each week's assignment I will merge ```dev``` to ```main```.
-   > ⭐ So remember to pull before starting any work!! 
+   > ⭐ So remember to pull before starting any work!!
+   
+
+## Working on the same programming assignment
+
+#### (For programming assignments that are a bit bigger than the programming assignments that are in the textbook) <br>
+Since it is ideal to work on it together...
+1. Make a branch from ```dev```.
+   > The name of the branch could be something like ```feature/<name of the programming assignment>```. <br>
+   > ex) ```feature/calculator```.
+2. Then each of us can make another branch coming out from ```feature/<name of the programming assignment>``` instead of ```dev```.
+   > This branch name could be something like ```<your name>/<name of the programming assignment>```. <br>
+   > ex) ```youngjin/calculator```
+3. After you are done implementing your code we can make PR to ```feature/<name of the programming assignment>```.
+4. Then merge ```feature/<name of the programming assignment>``` back to ```dev```.
+
+## Testing the App on a different branch
+
+1. do ```git switch dev``` first
+2. ```git fetch origin <branchname>:<branchname>```
+   > ```branchname``` should be the name of the branch that you want to pull from.
+3. now switch to the branch you just pulled.
+4. ```git switch <branchname>```
+5. ``` git branch --set-upstream-to=origin/<branchname> <branchname>```
+6. DONE!
 
 ## Useful stuff
 ⚠️ If there is an error doing ```pull``` try ```git config --global pull.rebase true```. <br>

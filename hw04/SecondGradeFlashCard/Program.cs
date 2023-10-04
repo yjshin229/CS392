@@ -1,4 +1,4 @@
-namespace RockPaperScissors_6._9
+namespace SecondGradeFlashCard
 {
     internal static class Program
     {
