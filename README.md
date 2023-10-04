@@ -46,6 +46,16 @@ Since it is ideal to work on it together...
 3. After you are done implementing your code we can make PR to ```feature/<name of the programming assignment>```.
 4. Then merge ```feature/<name of the programming assignment>``` back to ```dev```.
 
+## Testing the App on a different branch
+
+1. do ```git switch dev``` first
+2. ```git fetch origin <branchname>:<branchname>```
+   > ```branchname``` should be the name of the branch that you want to pull from.
+3. now switch to the branch you just pulled.
+4. ```git switch <branchname>```
+5. ``` git branch --set-upstream-to=origin/<branchname> <branchname>```
+6. DONE!
+
 ## Useful stuff
 ⚠️ If there is an error doing ```pull``` try ```git config --global pull.rebase true```. <br>
 (I use rebase for default when pulling.)
