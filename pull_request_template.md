@@ -5,7 +5,7 @@ ex) - File1_path/filename
 - File1_path/filename
 
 #### Changes Made:
-ex) -implemented <function name> or <feature name>
+ex) -implemented ```<function name>``` or ```<feature name>```
 - Please provide a short description of the changes
 
 #### Short Description:
