@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BMICalculatorDB
@@ -17,13 +10,20 @@ namespace BMICalculatorDB
         {
             InitializeComponent();
         }
-        SqlConnection con;
-        SqlCommand cmd;
+        SqlConnection conn;
         private void Form1_Load(object sender, EventArgs e)
         {
-        //    //string ConnString = "Data Source = localhost, Initial Catalog = EnhancedBMI, Integrated Security = true";
-        //    //con = new SqlConnection(ConnString);
-        //    //cmd = new SqlCommand();
+            //change datasource to your server name
+            string ConnString = "Data Source = DESKTOP-1OAACRD;Initial Catalog = BMI Database;Integrated Security = true";
+            conn = new SqlConnection(ConnString);
+            try
+            {
+                conn.Open();
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Database connection error: " + ex.Message);
+            }
         }
 
         private void buttonCalculate_Click(object sender, EventArgs e)
@@ -37,28 +37,38 @@ namespace BMICalculatorDB
                 return;
             }
             decimal bmi = (weight * 703) / (height * height);
-            textBoxBMI.Text = bmi.ToString();
+            textBoxBMI.Text = bmi.ToString("F");
         }
 
         private void buttonDB_Click(object sender, EventArgs e)
         {
+            DateTime currentDateTime = DateTime.Now;
+            string format = "yyyy-MM-dd HH:mm:ss";
             if (textBoxName.Text == "" || textBoxBMI.Text == "")
             {
                 MessageBox.Show("Please enter your name and calculate your BMI before adding to DB.");
                 return;
             }
-            string ConnString = "Data Source = LIVSLAPTOP\\SQLEXPRESS;" + "Initial Catalog = BMI Database;" + "Integrated Security = true";
-            con = new SqlConnection();
-            con.ConnectionString = ConnString;
-            //cmd = new SqlCommand();
-            string query = $"insert into EnhancedBMI values ('{textBoxName.Text}','{comboBoxGender.Text}','{numericWeight.Value.ToString()}','{numericHeight.Value.ToString()}','{textBoxBMI.Text}')";
-            con.Open();
-            cmd = new SqlCommand(query, con);
-            cmd.CommandText = query;
-            cmd.ExecuteNonQuery();
-            con.Close();
+            
+            string query = $"INSERT INTO EnhancedBMI(Name,Gender,Weight,Height,EnhancedBMI,DateTimeStamp) VALUES ('{textBoxName.Text}','{comboBoxGender.Text}','{numericWeight.Value}','{numericHeight.Value}','{textBoxBMI.Text}','{currentDateTime.ToString(format)}')";
+            try
+            {
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.CommandText = query;
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Data added to Database");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(String.Format("Error in Connection {0}", ex.Message));
+            }
+            finally
+            {
+                conn.Close();
+            }
+         
+            
         }
-
 
     }
 }

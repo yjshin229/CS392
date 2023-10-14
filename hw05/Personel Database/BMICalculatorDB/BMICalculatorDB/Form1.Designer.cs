@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             this.groupBoxCalculator = new System.Windows.Forms.GroupBox();
-            this.labelEnterName = new System.Windows.Forms.Label();
-            this.labelEnterWeight = new System.Windows.Forms.Label();
-            this.labelEnterHeight = new System.Windows.Forms.Label();
-            this.labelEnterGender = new System.Windows.Forms.Label();
-            this.textBoxName = new System.Windows.Forms.TextBox();
-            this.numericHeight = new System.Windows.Forms.NumericUpDown();
-            this.numericWeight = new System.Windows.Forms.NumericUpDown();
-            this.comboBoxGender = new System.Windows.Forms.ComboBox();
-            this.buttonCalculate = new System.Windows.Forms.Button();
-            this.labelBMI = new System.Windows.Forms.Label();
             this.textBoxBMI = new System.Windows.Forms.TextBox();
+            this.labelBMI = new System.Windows.Forms.Label();
+            this.buttonCalculate = new System.Windows.Forms.Button();
+            this.comboBoxGender = new System.Windows.Forms.ComboBox();
+            this.numericWeight = new System.Windows.Forms.NumericUpDown();
+            this.numericHeight = new System.Windows.Forms.NumericUpDown();
+            this.textBoxName = new System.Windows.Forms.TextBox();
+            this.labelEnterGender = new System.Windows.Forms.Label();
+            this.labelEnterHeight = new System.Windows.Forms.Label();
+            this.labelEnterWeight = new System.Windows.Forms.Label();
+            this.labelEnterName = new System.Windows.Forms.Label();
             this.buttonDB = new System.Windows.Forms.Button();
             this.groupBoxCalculator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericHeight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericWeight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericHeight)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxCalculator
@@ -60,74 +60,45 @@
             this.groupBoxCalculator.Controls.Add(this.labelEnterWeight);
             this.groupBoxCalculator.Controls.Add(this.labelEnterName);
             this.groupBoxCalculator.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxCalculator.Location = new System.Drawing.Point(35, 33);
+            this.groupBoxCalculator.Location = new System.Drawing.Point(27, 20);
+            this.groupBoxCalculator.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBoxCalculator.Name = "groupBoxCalculator";
-            this.groupBoxCalculator.Size = new System.Drawing.Size(703, 356);
+            this.groupBoxCalculator.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxCalculator.Size = new System.Drawing.Size(547, 214);
             this.groupBoxCalculator.TabIndex = 0;
             this.groupBoxCalculator.TabStop = false;
             this.groupBoxCalculator.Text = "Calculator";
             // 
-            // labelEnterName
+            // textBoxBMI
             // 
-            this.labelEnterName.AutoSize = true;
-            this.labelEnterName.Location = new System.Drawing.Point(161, 46);
-            this.labelEnterName.Name = "labelEnterName";
-            this.labelEnterName.Size = new System.Drawing.Size(103, 25);
-            this.labelEnterName.TabIndex = 0;
-            this.labelEnterName.Text = "Your Name:";
+            this.textBoxBMI.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxBMI.Location = new System.Drawing.Point(317, 170);
+            this.textBoxBMI.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxBMI.Name = "textBoxBMI";
+            this.textBoxBMI.Size = new System.Drawing.Size(79, 27);
+            this.textBoxBMI.TabIndex = 10;
             // 
-            // labelEnterWeight
+            // labelBMI
             // 
-            this.labelEnterWeight.AutoSize = true;
-            this.labelEnterWeight.Location = new System.Drawing.Point(161, 98);
-            this.labelEnterWeight.Name = "labelEnterWeight";
-            this.labelEnterWeight.Size = new System.Drawing.Size(155, 25);
-            this.labelEnterWeight.TabIndex = 1;
-            this.labelEnterWeight.Text = "Weight in Pounds:";
+            this.labelBMI.AutoSize = true;
+            this.labelBMI.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelBMI.Location = new System.Drawing.Point(268, 172);
+            this.labelBMI.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelBMI.Name = "labelBMI";
+            this.labelBMI.Size = new System.Drawing.Size(38, 20);
+            this.labelBMI.TabIndex = 9;
+            this.labelBMI.Text = "BMI:";
             // 
-            // labelEnterHeight
+            // buttonCalculate
             // 
-            this.labelEnterHeight.AutoSize = true;
-            this.labelEnterHeight.Location = new System.Drawing.Point(161, 148);
-            this.labelEnterHeight.Name = "labelEnterHeight";
-            this.labelEnterHeight.Size = new System.Drawing.Size(143, 25);
-            this.labelEnterHeight.TabIndex = 2;
-            this.labelEnterHeight.Text = "Height in Inches:";
-            // 
-            // labelEnterGender
-            // 
-            this.labelEnterGender.AutoSize = true;
-            this.labelEnterGender.Location = new System.Drawing.Point(161, 203);
-            this.labelEnterGender.Name = "labelEnterGender";
-            this.labelEnterGender.Size = new System.Drawing.Size(73, 25);
-            this.labelEnterGender.TabIndex = 3;
-            this.labelEnterGender.Text = "Gender:";
-            // 
-            // textBoxName
-            // 
-            this.textBoxName.Location = new System.Drawing.Point(371, 43);
-            this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(195, 31);
-            this.textBoxName.TabIndex = 4;
-            // 
-            // numericHeight
-            // 
-            this.numericHeight.Location = new System.Drawing.Point(371, 148);
-            this.numericHeight.Name = "numericHeight";
-            this.numericHeight.Size = new System.Drawing.Size(120, 31);
-            this.numericHeight.TabIndex = 5;
-            // 
-            // numericWeight
-            // 
-            this.numericWeight.Location = new System.Drawing.Point(371, 98);
-            this.numericWeight.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
-            this.numericWeight.Name = "numericWeight";
-            this.numericWeight.Size = new System.Drawing.Size(120, 31);
-            this.numericWeight.TabIndex = 6;
+            this.buttonCalculate.Location = new System.Drawing.Point(75, 150);
+            this.buttonCalculate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonCalculate.Name = "buttonCalculate";
+            this.buttonCalculate.Size = new System.Drawing.Size(116, 47);
+            this.buttonCalculate.TabIndex = 8;
+            this.buttonCalculate.Text = "Calculate Enhanced BMI";
+            this.buttonCalculate.UseVisualStyleBackColor = true;
+            this.buttonCalculate.Click += new System.EventHandler(this.buttonCalculate_Click);
             // 
             // comboBoxGender
             // 
@@ -135,45 +106,89 @@
             this.comboBoxGender.Items.AddRange(new object[] {
             "Female",
             "Male"});
-            this.comboBoxGender.Location = new System.Drawing.Point(371, 203);
+            this.comboBoxGender.Location = new System.Drawing.Point(289, 122);
+            this.comboBoxGender.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBoxGender.Name = "comboBoxGender";
-            this.comboBoxGender.Size = new System.Drawing.Size(195, 33);
+            this.comboBoxGender.Size = new System.Drawing.Size(153, 23);
             this.comboBoxGender.TabIndex = 7;
+            this.comboBoxGender.SelectedIndex = 0;
             // 
-            // buttonCalculate
+            // numericWeight
             // 
-            this.buttonCalculate.Location = new System.Drawing.Point(96, 250);
-            this.buttonCalculate.Name = "buttonCalculate";
-            this.buttonCalculate.Size = new System.Drawing.Size(149, 78);
-            this.buttonCalculate.TabIndex = 8;
-            this.buttonCalculate.Text = "Calculate Enhanced BMI";
-            this.buttonCalculate.UseVisualStyleBackColor = true;
-            this.buttonCalculate.Click += new System.EventHandler(this.buttonCalculate_Click);
+            this.numericWeight.Location = new System.Drawing.Point(289, 59);
+            this.numericWeight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericWeight.Maximum = new decimal(new int[] {
+            500,
+            0,
+            0,
+            0});
+            this.numericWeight.Name = "numericWeight";
+            this.numericWeight.Size = new System.Drawing.Size(93, 23);
+            this.numericWeight.TabIndex = 6;
             // 
-            // labelBMI
+            // numericHeight
             // 
-            this.labelBMI.AutoSize = true;
-            this.labelBMI.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBMI.Location = new System.Drawing.Point(345, 286);
-            this.labelBMI.Name = "labelBMI";
-            this.labelBMI.Size = new System.Drawing.Size(57, 30);
-            this.labelBMI.TabIndex = 9;
-            this.labelBMI.Text = "BMI:";
+            this.numericHeight.Location = new System.Drawing.Point(289, 89);
+            this.numericHeight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericHeight.Name = "numericHeight";
+            this.numericHeight.Size = new System.Drawing.Size(93, 23);
+            this.numericHeight.TabIndex = 5;
             // 
-            // textBoxBMI
+            // textBoxName
             // 
-            this.textBoxBMI.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxBMI.Location = new System.Drawing.Point(408, 283);
-            this.textBoxBMI.Name = "textBoxBMI";
-            this.textBoxBMI.Size = new System.Drawing.Size(100, 37);
-            this.textBoxBMI.TabIndex = 10;
+            this.textBoxName.Location = new System.Drawing.Point(289, 26);
+            this.textBoxName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxName.Name = "textBoxName";
+            this.textBoxName.Size = new System.Drawing.Size(153, 23);
+            this.textBoxName.TabIndex = 4;
+            // 
+            // labelEnterGender
+            // 
+            this.labelEnterGender.AutoSize = true;
+            this.labelEnterGender.Location = new System.Drawing.Point(125, 122);
+            this.labelEnterGender.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelEnterGender.Name = "labelEnterGender";
+            this.labelEnterGender.Size = new System.Drawing.Size(48, 15);
+            this.labelEnterGender.TabIndex = 3;
+            this.labelEnterGender.Text = "Gender:";
+            // 
+            // labelEnterHeight
+            // 
+            this.labelEnterHeight.AutoSize = true;
+            this.labelEnterHeight.Location = new System.Drawing.Point(125, 89);
+            this.labelEnterHeight.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelEnterHeight.Name = "labelEnterHeight";
+            this.labelEnterHeight.Size = new System.Drawing.Size(96, 15);
+            this.labelEnterHeight.TabIndex = 2;
+            this.labelEnterHeight.Text = "Height in Inches:";
+            // 
+            // labelEnterWeight
+            // 
+            this.labelEnterWeight.AutoSize = true;
+            this.labelEnterWeight.Location = new System.Drawing.Point(125, 59);
+            this.labelEnterWeight.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelEnterWeight.Name = "labelEnterWeight";
+            this.labelEnterWeight.Size = new System.Drawing.Size(104, 15);
+            this.labelEnterWeight.TabIndex = 1;
+            this.labelEnterWeight.Text = "Weight in Pounds:";
+            // 
+            // labelEnterName
+            // 
+            this.labelEnterName.AutoSize = true;
+            this.labelEnterName.Location = new System.Drawing.Point(125, 28);
+            this.labelEnterName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelEnterName.Name = "labelEnterName";
+            this.labelEnterName.Size = new System.Drawing.Size(69, 15);
+            this.labelEnterName.TabIndex = 0;
+            this.labelEnterName.Text = "Your Name:";
             // 
             // buttonDB
             // 
             this.buttonDB.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDB.Location = new System.Drawing.Point(35, 410);
+            this.buttonDB.Location = new System.Drawing.Point(27, 246);
+            this.buttonDB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonDB.Name = "buttonDB";
-            this.buttonDB.Size = new System.Drawing.Size(136, 50);
+            this.buttonDB.Size = new System.Drawing.Size(106, 30);
             this.buttonDB.TabIndex = 11;
             this.buttonDB.Text = "Save to DB";
             this.buttonDB.UseVisualStyleBackColor = true;
@@ -181,18 +196,19 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(780, 492);
+            this.ClientSize = new System.Drawing.Size(607, 295);
             this.Controls.Add(this.buttonDB);
             this.Controls.Add(this.groupBoxCalculator);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "BMI Calculator with DB";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBoxCalculator.ResumeLayout(false);
             this.groupBoxCalculator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericHeight)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericWeight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericHeight)).EndInit();
             this.ResumeLayout(false);
 
         }
