@@ -1,0 +1,10 @@
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\bin\Debug\BMICalculatorDB.exe.config
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\bin\Debug\BMICalculatorDB.exe
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\bin\Debug\BMICalculatorDB.pdb
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.csproj.AssemblyReference.cache
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.Form1.resources
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.Properties.Resources.resources
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.csproj.GenerateResource.cache
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.csproj.CoreCompileInputs.cache
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.exe
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.pdb
