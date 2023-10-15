@@ -11,6 +11,8 @@ namespace BMICalculatorDB
             InitializeComponent();
         }
         SqlConnection conn;
+        decimal db_height;
+        decimal db_weight;
         private void Form1_Load(object sender, EventArgs e)
         {
             //change datasource to your server name
@@ -38,6 +40,10 @@ namespace BMICalculatorDB
             }
             decimal bmi = (weight * 703) / (height * height);
             textBoxBMI.Text = bmi.ToString("F");
+            db_height = height;
+            db_weight = weight;
+            numericWeight.Value = 0;
+            numericHeight.Value = 0;
         }
 
         private void buttonDB_Click(object sender, EventArgs e)
@@ -49,8 +55,8 @@ namespace BMICalculatorDB
                 MessageBox.Show("Please enter your name and calculate your BMI before adding to DB.");
                 return;
             }
-            
-            string query = $"INSERT INTO EnhancedBMI(Name,Gender,Weight,Height,EnhancedBMI,DateTimeStamp) VALUES ('{textBoxName.Text}','{comboBoxGender.Text}','{numericWeight.Value}','{numericHeight.Value}','{textBoxBMI.Text}','{currentDateTime.ToString(format)}')";
+           
+            string query = $"INSERT INTO EnhancedBMI(Name,Gender,Weight,Height,EnhancedBMI,DateTimeStamp) VALUES ('{textBoxName.Text}','{comboBoxGender.Text}','{db_weight}','{db_height}','{textBoxBMI.Text}','{currentDateTime.ToString(format)}')";
             try
             {
                 SqlCommand cmd = new SqlCommand(query, conn);
@@ -61,13 +67,13 @@ namespace BMICalculatorDB
             catch(Exception ex)
             {
                 MessageBox.Show(String.Format("Error in Connection {0}", ex.Message));
+                conn.Close();
             }
             finally
             {
-                conn.Close();
+                db_height = 0;
+                db_weight = 0;
             }
-         
-            
         }
 
     }
