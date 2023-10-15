@@ -1,0 +1,88 @@
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\bin\Debug\BMICalculatorDB.exe.config
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\bin\Debug\BMICalculatorDB.exe
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\bin\Debug\BMICalculatorDB.pdb
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.csproj.AssemblyReference.cache
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.Form1.resources
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.Properties.Resources.resources
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.csproj.GenerateResource.cache
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.csproj.CoreCompileInputs.cache
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.exe
+C:\Users\oapro\source\repos\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.pdb
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\BMICalculatorDB.exe.config
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\BMICalculatorDB.exe
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\BMICalculatorDB.pdb
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.csproj.AssemblyReference.cache
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.Form1.resources
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.Properties.Resources.resources
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.csproj.GenerateResource.cache
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.csproj.CoreCompileInputs.cache
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.exe
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.pdb
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Azure.Core.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Azure.Identity.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.Identity.Client.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Buffers.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Memory.Data.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Memory.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Numerics.Vectors.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Security.AccessControl.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Security.Permissions.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Security.Principal.Windows.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Text.Encodings.Web.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Text.Json.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.ValueTuple.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Azure.Core.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Azure.Identity.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.Identity.Client.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Buffers.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Memory.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Memory.Data.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Numerics.Vectors.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Security.AccessControl.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Security.Permissions.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Security.Principal.Windows.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Text.Encodings.Web.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Text.Json.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\System.ValueTuple.xml
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\School\CS392\Code\hw05\Personel Database\BMICalculatorDB\BMICalculatorDB\obj\Debug\BMICalculatorDB.csproj.CopyComplete
