@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.hangmanPicture = new System.Windows.Forms.PictureBox();
             this.underscoreText = new System.Windows.Forms.Label();
             this.buttonA = new System.Windows.Forms.Button();
             this.buttonB = new System.Windows.Forms.Button();
@@ -59,18 +59,18 @@
             this.label_2 = new System.Windows.Forms.Label();
             this.hintText = new System.Windows.Forms.Label();
             this.startButton = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hangmanPicture)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // hangmanPicture
             // 
-            this.pictureBox1.Image = global::Hangman.Properties.Resources.hang0;
-            this.pictureBox1.Location = new System.Drawing.Point(25, 47);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(227, 254);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.hangmanPicture.Image = global::Hangman.Properties.Resources.hang0;
+            this.hangmanPicture.Location = new System.Drawing.Point(25, 47);
+            this.hangmanPicture.Name = "hangmanPicture";
+            this.hangmanPicture.Size = new System.Drawing.Size(227, 254);
+            this.hangmanPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.hangmanPicture.TabIndex = 0;
+            this.hangmanPicture.TabStop = false;
             // 
             // underscoreText
             // 
@@ -407,11 +407,11 @@
             this.Controls.Add(this.buttonB);
             this.Controls.Add(this.buttonA);
             this.Controls.Add(this.underscoreText);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.hangmanPicture);
             this.Name = "Form1";
             this.Text = "Hangman";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hangmanPicture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -419,7 +419,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox hangmanPicture;
         private System.Windows.Forms.Label underscoreText;
         private System.Windows.Forms.Button buttonA;
         private System.Windows.Forms.Button buttonB;
