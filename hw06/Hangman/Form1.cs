@@ -33,11 +33,11 @@ namespace Hangman
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string[] fruit = { "apple", "banana", "kiwi", "grape", "orange" };
-            string[] country = { "switzerland", "sweden", "china", "canada", "Italy" };
-            string[] animal = { "gorilla", "sloth", "giraffe", "anteater", "eagle" };
-            string[] color = { "purple", "skyblue", "babypink", "Turquoise", "Maroon" };
-            string[] sports = { "basketball", "volleyball", "badminton", "gymnastics", "icehockey" };
+            string[] fruit = { "APPLE", "BANANA", "KIWI", "GRAPE", "ORANGE" };
+            string[] country = { "SWITZERLAND", "SWEDEN", "CHINA", "CANADA", "ITALY" };
+            string[] animal = { "GORILLA", "SLOTH", "GIRAFFE", "ANTEATER", "EAGLE" };
+            string[] color = { "PURPLE", "SKYBLUE", "BABYPINK", "TURQUOISE", "MAROON" };
+            string[] sports = { "BASKETBALL", "VOLLEYBALL", "BADMINTON", "GYMNASTICS", "ICEHOCKEY" };
 
             word_bank.Add("fruit", fruit);
             word_bank.Add("country", country);
@@ -47,17 +47,24 @@ namespace Hangman
 
         }
 
+
         private void Alphabet(object sender, EventArgs e )
         {
             Button btn = (Button)sender;
             guessLetter(btn.Text);
             
             btn.Visible = false;
+            usedButtons.Add(btn);
+            //Console.WriteLine(btn.Text);
             
         }
 
         private void startButton_Click(object sender, EventArgs e)
         {
+            foreach (Button btn in usedButtons)
+            {
+                btn.Visible = true;
+            }
             bool newWord = false;
 
             while (!newWord) {
@@ -78,10 +85,18 @@ namespace Hangman
                 if (!exists) {
                     newWord = true;
                 }
+                if(words_used.Count == 25)
+                {
+                    MessageBox.Show("You played all the words!");
+                    break;
+                }
             }
+
+            words_used.Add(answer);
 
             hintText.Text = hint;
             initialize_game();
+            Console.WriteLine(answer);
         }
 
         private void generate_Underscores(string word)
@@ -143,27 +158,46 @@ namespace Hangman
             lettersUsed.Add(letter);
             List<int> indexes = new List<int>();
 
-            foreach (var s in answer)
+            Console.WriteLine(answer);
+
+
+            for (int i =0; i < answer.Length; i++)
             {
-                if (s.Equals(letter))
+                if (answer[i].ToString().Equals(letter))
                 {
-                    indexes.Add(letter.IndexOf(s));
+                    indexes.Add(i);
                 }
             }
+            //foreach (var s in answer)
+            //{
+            //    Console.WriteLine(s);
+            //    if (s.ToString().Equals(letter))
+            //    {
+            //        indexes.Add(letter.IndexOf(s.ToString()));
+            //        Console.WriteLine(indexes);
+
+            //    }
+            //}
 
             var finalUnderscoreWord = underscoreWord;
             foreach (var index in indexes)
             {
                 var sb = new StringBuilder(finalUnderscoreWord);
                 sb[index] = char.Parse(letter);
+                finalUnderscoreWord = sb.ToString();
+                Console.WriteLine(sb);
+                Console.WriteLine(index);
+
             }
             if (indexes.Count == 0)
             {
                 currentTries++;
                 hangmanPicture.Image = getHangmanImage();
             }
+            Console.WriteLine(finalUnderscoreWord);
             underscoreWord = finalUnderscoreWord;
             hangmanPicture.Image = getHangmanImage();
+            underscoreText.Text = underscoreWord;
 
         }
     }
