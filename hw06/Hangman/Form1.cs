@@ -118,8 +118,6 @@ namespace Hangman
             hangmanPicture.Image = getHangmanImage();
             makeButtonsVisible(startButton);
 
-
-
         }
 
         private void makeButtonsVisible(object sender)

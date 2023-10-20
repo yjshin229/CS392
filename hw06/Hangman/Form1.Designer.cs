@@ -89,7 +89,6 @@
             this.buttonA.TabIndex = 2;
             this.buttonA.Text = "A";
             this.buttonA.UseVisualStyleBackColor = true;
-            this.buttonA.Visible = false;
             this.buttonA.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonB
@@ -100,7 +99,6 @@
             this.buttonB.TabIndex = 3;
             this.buttonB.Text = "B";
             this.buttonB.UseVisualStyleBackColor = true;
-            this.buttonB.Visible = false;
             this.buttonB.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonC
@@ -111,7 +109,6 @@
             this.buttonC.TabIndex = 4;
             this.buttonC.Text = "C";
             this.buttonC.UseVisualStyleBackColor = true;
-            this.buttonC.Visible = false;
             this.buttonC.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonD
@@ -122,7 +119,6 @@
             this.buttonD.TabIndex = 5;
             this.buttonD.Text = "D";
             this.buttonD.UseVisualStyleBackColor = true;
-            this.buttonD.Visible = false;
             this.buttonD.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonE
@@ -133,7 +129,6 @@
             this.buttonE.TabIndex = 6;
             this.buttonE.Text = "E";
             this.buttonE.UseVisualStyleBackColor = true;
-            this.buttonE.Visible = false;
             this.buttonE.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonF
@@ -144,7 +139,6 @@
             this.buttonF.TabIndex = 7;
             this.buttonF.Text = "F";
             this.buttonF.UseVisualStyleBackColor = true;
-            this.buttonF.Visible = false;
             this.buttonF.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonG
@@ -155,7 +149,6 @@
             this.buttonG.TabIndex = 8;
             this.buttonG.Text = "G";
             this.buttonG.UseVisualStyleBackColor = true;
-            this.buttonG.Visible = false;
             this.buttonG.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonN
@@ -166,7 +159,6 @@
             this.buttonN.TabIndex = 15;
             this.buttonN.Text = "N";
             this.buttonN.UseVisualStyleBackColor = true;
-            this.buttonN.Visible = false;
             this.buttonN.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonM
@@ -177,7 +169,6 @@
             this.buttonM.TabIndex = 14;
             this.buttonM.Text = "M";
             this.buttonM.UseVisualStyleBackColor = true;
-            this.buttonM.Visible = false;
             this.buttonM.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonL
@@ -188,7 +179,6 @@
             this.buttonL.TabIndex = 13;
             this.buttonL.Text = "L";
             this.buttonL.UseVisualStyleBackColor = true;
-            this.buttonL.Visible = false;
             this.buttonL.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonK
@@ -199,7 +189,6 @@
             this.buttonK.TabIndex = 12;
             this.buttonK.Text = "K";
             this.buttonK.UseVisualStyleBackColor = true;
-            this.buttonK.Visible = false;
             this.buttonK.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonJ
@@ -210,7 +199,6 @@
             this.buttonJ.TabIndex = 11;
             this.buttonJ.Text = "J";
             this.buttonJ.UseVisualStyleBackColor = true;
-            this.buttonJ.Visible = false;
             this.buttonJ.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonI
@@ -221,7 +209,6 @@
             this.buttonI.TabIndex = 10;
             this.buttonI.Text = "I";
             this.buttonI.UseVisualStyleBackColor = true;
-            this.buttonI.Visible = false;
             this.buttonI.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonH
@@ -232,7 +219,6 @@
             this.buttonH.TabIndex = 9;
             this.buttonH.Text = "H";
             this.buttonH.UseVisualStyleBackColor = true;
-            this.buttonH.Visible = false;
             this.buttonH.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonU
@@ -243,7 +229,6 @@
             this.buttonU.TabIndex = 22;
             this.buttonU.Text = "U";
             this.buttonU.UseVisualStyleBackColor = true;
-            this.buttonU.Visible = false;
             this.buttonU.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonT
@@ -254,7 +239,6 @@
             this.buttonT.TabIndex = 21;
             this.buttonT.Text = "T";
             this.buttonT.UseVisualStyleBackColor = true;
-            this.buttonT.Visible = false;
             this.buttonT.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonS
@@ -265,7 +249,6 @@
             this.buttonS.TabIndex = 20;
             this.buttonS.Text = "S";
             this.buttonS.UseVisualStyleBackColor = true;
-            this.buttonS.Visible = false;
             this.buttonS.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonR
@@ -276,7 +259,6 @@
             this.buttonR.TabIndex = 19;
             this.buttonR.Text = "R";
             this.buttonR.UseVisualStyleBackColor = true;
-            this.buttonR.Visible = false;
             this.buttonR.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonQ
@@ -287,7 +269,6 @@
             this.buttonQ.TabIndex = 18;
             this.buttonQ.Text = "Q";
             this.buttonQ.UseVisualStyleBackColor = true;
-            this.buttonQ.Visible = false;
             this.buttonQ.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonP
@@ -298,7 +279,6 @@
             this.buttonP.TabIndex = 17;
             this.buttonP.Text = "P";
             this.buttonP.UseVisualStyleBackColor = true;
-            this.buttonP.Visible = false;
             this.buttonP.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonO
@@ -309,7 +289,6 @@
             this.buttonO.TabIndex = 16;
             this.buttonO.Text = "O";
             this.buttonO.UseVisualStyleBackColor = true;
-            this.buttonO.Visible = false;
             this.buttonO.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonZ
@@ -320,7 +299,6 @@
             this.buttonZ.TabIndex = 27;
             this.buttonZ.Text = "Z";
             this.buttonZ.UseVisualStyleBackColor = true;
-            this.buttonZ.Visible = false;
             this.buttonZ.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonY
@@ -331,7 +309,6 @@
             this.buttonY.TabIndex = 26;
             this.buttonY.Text = "Y";
             this.buttonY.UseVisualStyleBackColor = true;
-            this.buttonY.Visible = false;
             this.buttonY.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonX
@@ -342,7 +319,6 @@
             this.buttonX.TabIndex = 25;
             this.buttonX.Text = "X";
             this.buttonX.UseVisualStyleBackColor = true;
-            this.buttonX.Visible = false;
             this.buttonX.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonW
@@ -353,7 +329,6 @@
             this.buttonW.TabIndex = 24;
             this.buttonW.Text = "W";
             this.buttonW.UseVisualStyleBackColor = true;
-            this.buttonW.Visible = false;
             this.buttonW.Click += new System.EventHandler(this.Alphabet);
             // 
             // buttonV
@@ -364,7 +339,6 @@
             this.buttonV.TabIndex = 23;
             this.buttonV.Text = "V";
             this.buttonV.UseVisualStyleBackColor = true;
-            this.buttonV.Visible = false;
             this.buttonV.Click += new System.EventHandler(this.Alphabet);
             // 
             // label_2
