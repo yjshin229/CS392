@@ -6,20 +6,38 @@
 # User-specific files
 *.suo
 *.user
+*.userosscache
 *.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Tools pulled down during build
+.tools/
+.dotnet/
+.packages/
 
 # Build results
 
 [Dd]ebug/
 [Rr]elease/
 x64/
+x86/
+bld/
 [Bb]in/
 [Oo]bj/
+[Ll]og/
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+# Files built by Visual Studio
 *_i.c
 *_p.c
 *_i.h
@@ -46,13 +64,23 @@ x64/
 *.svclog
 *.scc
 
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
 # Visual C++ cache files
 ipch/
 *.aps
 *.ncb
+*.opendb
 *.opensdf
 *.sdf
 *.cachefile
+*.VC.db
+*.VC.VC.opendb
 **/.vs/**/DesignTimeBuild/.dtbcache.v2
 **/.vs/**/DesignTimeBuild/.futdcache.v2
 
@@ -63,6 +91,10 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+*.sap
+
+# Visual Studio Trace Files
+*.e2e
 
 # Guidance Automation Toolkit
 *.gpState
@@ -72,6 +104,15 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+.dotnet/
+
 # Click-Once directory
 publish/
 
@@ -79,6 +120,23 @@ publish/
 *.Publish.xml
 *.pubxml
 *.azurePubxml
+
+# JustCode is a .NET coding add-in
+.JustCode
+
+# TeamCity is a build add-in
+_TeamCity*
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# AxoCover is a Code Coverage Tool
+.axoCover/*
+!.axoCover/settings.json
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
 
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
@@ -120,6 +178,10 @@ UpgradeLog*.htm
 App_Data/*.mdf
 App_Data/*.ldf
 
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+
 # =========================
 # Windows detritus
 # =========================
@@ -138,3 +200,14 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+
+# Others
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
