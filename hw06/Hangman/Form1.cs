@@ -15,8 +15,11 @@ namespace Hangman
         string answer = "";
         string hint = "";
         List<string> lettersUsed = new List<string>();
+        List<string> words_used = new List<string>();
         int maxTries = 6;
         int currentTries = 0;
+        string underscoreWord = "";
+
 
         Dictionary<string, string[]> word_bank = new Dictionary<string, string[]>();
 
@@ -46,6 +49,48 @@ namespace Hangman
         {
             Button btn = (Button)sender;
             
+        }
+
+        private void startButton_Click(object sender, EventArgs e)
+        {
+            bool newWord = false;
+
+            while (!newWord) {
+                Random rnd = new Random();
+                int firstInt = rnd.Next(5);
+                int secondInt = rnd.Next(5);
+
+                hint = word_bank.ElementAt(firstInt).Key;
+                answer = word_bank.ElementAt(firstInt).Value[secondInt];
+
+                bool exists = false;
+                foreach( string word in words_used){
+                    if (word.Contains(answer)) {
+                        exists = true;
+                        break;
+                    }
+                }
+                if (!exists) {
+                    newWord = true;
+                }
+            }
+
+            hintText.Text = hint;
+            currentTries = 0;
+
+            generate_Underscores(answer);
+            underscoreText.Text = underscoreWord;
+        }
+
+        private void generate_Underscores(string word)
+        {
+            var sb = new StringBuilder();
+            foreach (var item in word)
+            {
+                sb.Append("-");
+                
+            }
+            underscoreWord = sb.ToString();
         }
     }
 }
