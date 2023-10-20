@@ -22,7 +22,10 @@ namespace ListManipulator_14._1
         {
             List<int> numbers = new List<int>();
 
-            string[] lines = File.ReadAllLines("random.txt");
+            string projectDirectory = Directory.GetParent(Application.StartupPath).Parent.FullName;
+            string filePath = Path.Combine(projectDirectory, "random.txt");
+
+            string[] lines = File.ReadAllLines(filePath);
             foreach (string line in lines)
             {
                 if (int.TryParse(line, out int number))
