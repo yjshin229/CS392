@@ -21,6 +21,7 @@ namespace Hangman
         int currentTries = 0;
         string underscoreWord = "";
         List<Button> usedButtons = new List<Button>();
+        bool firstGame = true;
 
 
         Dictionary<string, string[]> word_bank = new Dictionary<string, string[]>();
@@ -45,6 +46,10 @@ namespace Hangman
             word_bank.Add("color", color);
             word_bank.Add("sports", sports);
 
+            if (firstGame)
+            {
+
+            }
         }
 
 
@@ -55,12 +60,13 @@ namespace Hangman
             
             btn.Visible = false;
             usedButtons.Add(btn);
-            //Console.WriteLine(btn.Text);
-            
+            checkGameStatus();
         }
 
         private void startButton_Click(object sender, EventArgs e)
         {
+            firstGame = false;
+            loadButtonOnStartGame();
             foreach (Button btn in usedButtons)
             {
                 btn.Visible = true;
@@ -87,7 +93,8 @@ namespace Hangman
                 }
                 if(words_used.Count == 25)
                 {
-                    MessageBox.Show("You played all the words!");
+                    MessageBox.Show("You played all the words!\nReload the program please.");
+                    Close();
                     break;
                 }
             }
@@ -117,6 +124,10 @@ namespace Hangman
             underscoreText.Text = underscoreWord;
             hangmanPicture.Image = getHangmanImage();
             makeButtonsVisible(startButton);
+            won.Visible = false;
+            lost.Visible = false;
+            enableAlphabetButton();
+
 
         }
 
@@ -125,6 +136,20 @@ namespace Hangman
             foreach(Button btn in usedButtons)
             {
                 btn.Visible = true;
+            }
+        }
+
+        private void loadButtonOnStartGame()
+        {
+            for (char letter = 'A'; letter <= 'Z'; letter++)
+            {
+                string buttonName = "button" + letter;
+                Button alphabetButton = Controls.Find(buttonName, true).FirstOrDefault() as Button;
+
+                if (alphabetButton != null)
+                {
+                    alphabetButton.Visible = true;
+                }
             }
         }
 
@@ -166,17 +191,7 @@ namespace Hangman
                     indexes.Add(i);
                 }
             }
-            //foreach (var s in answer)
-            //{
-            //    Console.WriteLine(s);
-            //    if (s.ToString().Equals(letter))
-            //    {
-            //        indexes.Add(letter.IndexOf(s.ToString()));
-            //        Console.WriteLine(indexes);
-
-            //    }
-            //}
-
+            
             var finalUnderscoreWord = underscoreWord;
             foreach (var index in indexes)
             {
@@ -197,6 +212,46 @@ namespace Hangman
             hangmanPicture.Image = getHangmanImage();
             underscoreText.Text = underscoreWord;
 
+        }
+        private void disableAlphabetButton()
+        {
+            for (char letter = 'A'; letter <= 'Z'; letter++)
+            {
+                string buttonName = "button" + letter;
+                Button alphabetButton = Controls.Find(buttonName, true).FirstOrDefault() as Button;
+
+                if (alphabetButton != null)
+                {
+                    alphabetButton.Enabled = false;
+                }
+            }
+        }
+
+        private void enableAlphabetButton()
+        {
+            for (char letter = 'A'; letter <= 'Z'; letter++)
+            {
+                string buttonName = "button" + letter;
+                Button alphabetButton = Controls.Find(buttonName, true).FirstOrDefault() as Button;
+
+                if (alphabetButton != null)
+                {
+                    alphabetButton.Enabled = true;
+                }
+            }
+        }
+        private void checkGameStatus()
+        {
+            if(currentTries == maxTries)
+            {
+                lost.Visible = true;
+                disableAlphabetButton();
+            }
+            else if(currentTries < maxTries && answer.Equals(underscoreWord)) {
+                won.Visible = true;
+                disableAlphabetButton();
+            }
+            
         }
     }
 }
