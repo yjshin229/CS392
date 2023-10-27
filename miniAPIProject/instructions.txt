@@ -1,5 +1,5 @@
 Geography API(winforms App)
-1. Nuget Packages to download:
+1. NuGet Packages to download:
   - RestSharp
   - Newtonsoft
 2. How it works and what it does:
@@ -10,3 +10,14 @@ Geography API(winforms App)
     3. With the response we get with the first API call, using the coordinates we do another API call for fetching the detailed location
     4. With the response we got with the second call, we extract the formatted address.
     5. Display the formatted address as well. 
+
+Salon Calendar App (Winforms App)
+1. NuGet Packages to download
+  - Google.APIS.Calendar.V3
+  - Google.APIs.Auth
+2. What to do:
+   -Click On "Load Appointments" to see the appointments on my google calendar
+3. How it works
+  -This app has a hardcoaded CalendarID which accesses and takes the data from a google calendar I created for this app
+  -In google calendar, I created various appointments which one will see when they press load appointments
+
